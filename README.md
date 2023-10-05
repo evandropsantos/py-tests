@@ -14,6 +14,7 @@
 ```bash
     pip install pytest==7.1.2
     pip freeze > requirements.txt # gerar informações de tudo que estamos instalando
+    pip install -r requirements.txt
 ```
 
 ## Metodologia Given-When-Then
