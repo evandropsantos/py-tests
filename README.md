@@ -5,6 +5,12 @@
 ## Ambiente virtual
 
 ```bash
+    # setar versão
+    root@irshad:/usr/bin# unlink python
+    root@irshad:/usr/bin# ln -s /usr/bin/python3.6 python
+    root@irshad:/usr/bin# python --version
+    # Python 3.6.8
+
     python3 -m venv venv
     source venv/bin/activate
 
